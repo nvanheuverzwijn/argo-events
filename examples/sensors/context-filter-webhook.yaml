@@ -10,7 +10,7 @@ spec:
       eventSourceName: webhook
       eventName: example
       # The filter is applied on the context of the event.
-      # The trigger will be executed only of the event passes the filter
+      # The trigger will be executed only if the event passes the filter
       filters:
         context:
           source: webhook
